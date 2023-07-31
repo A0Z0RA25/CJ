@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3032329c7e.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://colorhunt.co/palette/0c134f1d267d5c469cd4adfc">
+</head>
+<body>
+    <div class="container">
+
+    <div class="info">
+        <div class="job">
+          <h1>Carl Jasper Ramos</h1>
+          <h2>Web Developer</h2>  
+        </div>
+        <hr/>
+        <div class="soc-med">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <hr/>
+        <div class="contact">
+            <div class="email flex">
+                 <i class="fa-regular fa-envelope"></i>
+                 <div class="inbox">
+                    <h1>Email</h1>
+                    <p>carljasperramos97@gmail.com</p> 
+                 </div>
+                 
+            </div>
+
+            <div class="phone flex">
+                  <i class="fa-solid fa-mobile"></i>
+                  <div class="number">
+                    <h1>Phone</h1>
+                  <p>09919499847</p>
+                  </div>
+                  
+            </div>
+            
+            <div class="location flex">
+                 <i class="fa-solid fa-location-dot"></i>
+                <div class="address">
+                  <h1>Location</h1>
+                  <p>Santa Maria Laguna</p>
+                
+               </div>   
+            </div>
+            
+        </div>
+</div>
+<!-- SECOND SECTION -->
+
+
+<nav class="navbar">
+    <ul>
+        <li><a id="home" onclick="myFunction()" >About</a></li>
+        <li><a id="project" onclick="myFunction2()" >Plan</a></li>
+        <li><a id="about" onclick="myFunction3()">Contact</a></li>
+    </ul>
+</nav>
+
+
+    <div class="about" id="myDIV">   
+        <div class="switch">
+
+            <div class="about-me">
+                <h2>About Me</h2>
+    
+                <div class="line">
+                    
+                </div>
+    
+                <p>I'm 16 years old and currently a grade 11 student and I'm studying HTML, CSS, and JAVASCRIPT. 
+                    My dream is to become a programmer and I'm planning to get the Computer Science Course
+                    when I go to College.
+                </p>
+            </div>
+    
+    
+        <!-- THIRD SECTION -->
+            <div class="my-work">
+                <h2>My Experience:</h2>
+    
+            <div class="web-work">
+    
+                <div class="programming">
+                    <div class="job-title flex">
+                        <i class="fa-solid fa-terminal"></i>
+                        <h2>Programming Experience</h2>
+                    </div>
+                    <p class="job-dcp">I'm studying vanilla javascript for about a month now, but it's still hard for me to use this computer language and sometimes I get confused about its syntax.</p>
+                </div>
+    
+                <div class="webdev">
+                    <div class="job-title flex">
+                       <i class="fa-solid fa-terminal"></i>
+                       <h2>Webdev Experience</h2>
+                    </div>
+                    <p class="job-dcp">I used HTML and CSS for about a month now and I already finish the Responsive Web Design Certification at Free Code Camp(FCC) I'm still practicing it day by day by building my portfolio and different projects.</p>
+                </div>
+            </div>
+         
+    
+         <!-- FOURTH SECTION -->
+         <div class="language">
+            <h2 class="language-title">What I use:</h2>
+    
+            <div class="language-use">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-html5"></i></a>HTML</li>
+                    <li><a href="#"><i class="fa-brands fa-css3-alt"></i></a>CSS</li>
+                    <li><a href="#"><i class="fa-brands fa-js"></i></a>JAVASCRIPT</li>
+                </ul>
+            </div>
+         </div>
+    </div>
+    </div>
+
+        </div>
+        
+
+<!-- PROJECT SECTION -->
+
+<div class="plan-container hidden" id="myDIV2">
+    <h1 class="title">My plan</h1>
+
+    <div class="plan-line"></div>
+    <div class="circle1">
+        <i class="fa-solid fa-circle"></i>
+    </div>
+    
+    <div class="first-bullet">
+        <h1 class="plan" >Free Code Camp</h1>
+        <li>Responsive WEB design</li>
+        <li>Data Structure And Algorithm</li>
+    </div>
+ 
+<i class="fa-solid fa-circle circle2"></i>
+ <div class="second-bullet">
+    <h1 class="plan">Senior Highschool</h1>
+    <li>Passing STEM entrance exam</li>
+ </div>
+
+ <i class="fa-solid fa-circle circle3"></i>
+ <div class="third-bullet">
+    <h1 class="plan">College: Computer Science</h1>
+    <li>First Year</li>
+    <li>Second Year</li>
+    <li>Third Year</li>
+    <li>Fourth Year</li>
+ </div>
+
+ <i class="fa-solid fa-circle circle4"></i>
+ <div class="fourth-bullet">
+    <h1 class="plan">Job: after graduate</h1>
+    <li>Developer</li>
+ </div>
+
+
+</div>
+
+
+
+
+<!-- ABOUT SECTION -->
+
+<div class="contact-container hidden" id="myDIV3">
+    <h1 class="contact-title">Contact</h1>
+    <form action="mailto:carljasperramos97@gmail.com" >
+        <div class="email-page">
+
+        <span for="name">Name:<input type="text" name="name" for="submit" id="name-input" required></span>
+        <span for="email">Email:<input type="email" name="email" for="submit" id="mail-input" required></span>
+
+        <div class="message">
+            <h1>Message:</h1>
+            <textarea name="" id="" cols="30" rows="10" for="submit"></textarea>
+        </div>
+        
+        <input type="submit" value="send" id="submit" name="submit">
+
+        </div>
+</form>
+</div>
+    
+</div>
+
+<script type="text/javascript"> 
+
+var x = document.getElementById("myDIV");
+var y = document.getElementById("myDIV2");
+var z = document.getElementById("myDIV3");
+
+function myFunction() {
+    if (x.style.display === "none") {
+      x.style.display = "block"
+      y.style.display = "none"
+      z.style.display = "none"
+    } else {
+      x.style.display = "block"
+      y.style.display = "none"
+      z.style.display = "none"
+    }
+  }
+
+
+
+  function myFunction2() {
+    if (y.style.display === "none") {
+      y.style.display = "block"
+      x.style.display = "none"
+      z.style.display = "none"
+    } else {
+      y.style.display = "block"
+      x.style.display = "none"
+      z.style.display = "none"
+    }
+  }
+
+
+  function myFunction3() {
+    if (z.style.display === "none") {
+      z.style.display = "block"
+      y.style.display = "none"
+      x.style.display = "none"
+    } else {
+      z.style.display = "block"
+      y.style.display = "none"
+      x.style.display = "none"
+    }
+  }
+
+</script>    
+</body>
+</html>
