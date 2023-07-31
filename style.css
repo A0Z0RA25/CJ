@@ -221,7 +221,7 @@ body::-webkit-scrollbar{
 
 .plan-container .title{
     margin: 20px 50px 0px 60px;
-    font-size: 60px;
+    font-size: 45px;
     font-family: var(--title-fm);
 }
 .plan{
@@ -238,19 +238,19 @@ body::-webkit-scrollbar{
     left: 12%;
     top: 20%;
     width: 1px;
-    height:400px;
+    height:380px;
     border-radius: 20px;
     position: absolute;
     background-color: white;
 }
 .circle1 i{
     position: absolute;
-    left: 80px;
+    left: 86px;
     top: 20%;
     padding: 6px;
     border: none;
     border-radius:50%;
-    font-size: 1px;
+    font-size: 7px;
     background-color: var(--bg-color);
     color: red;
 }
@@ -265,24 +265,24 @@ body::-webkit-scrollbar{
 
 .circle2{
     position: absolute;
-    left: 80px;
+    left: 85px;
     top: 40%;
     padding: 6px;
     border: none;
     border-radius:50%;
-    font-size: 1px;
+    font-size: 7px;
     background-color: var(--bg-color);
     color: red;
 }
 
 .circle3{
     position: absolute;
-    left: 80px;
-    top: 55.5%;
+    left: 85px;
+    top: 56.5%;
     padding: 6px;
     border: none;
     border-radius:50%;
-    font-size: 1px;
+    font-size: 7px;
     background-color: var(--bg-color);
     color: red;
 }
@@ -295,12 +295,12 @@ body::-webkit-scrollbar{
 
 .circle4{
     position: absolute;
-    left: 80px;
-    top: 80%;
+    left: 85px;
+    top: 81%;
     padding: 6px;
     border: none;
     border-radius:50%;
-    font-size: 1px;
+    font-size: 7px;
     background-color: var(--bg-color);
     color: red;
 }
