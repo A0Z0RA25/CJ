@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Hero from './heroContainer/hero';
 import Navbar from './navcontainer/navbar';
@@ -24,12 +24,14 @@ function App() {
   }
 
   return (
+  <Router>
     <div className='container bg-background md:h-full xl:h-svh w-svw h-svh md:px-[60px] px-[10px] py-[20px] md:py-0'> 
       <Navbar onClickNav={handleClickSection} />
       {showSection === 'home' && <Hero />}
       {showSection === 'projects' && <Projects />}
       {showSection === 'about' && <About />}
     </div>
+  </Router>
   )
 }
 export default App
