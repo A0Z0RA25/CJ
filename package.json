@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/A0Z0RA25/Carl_Jasper_Ramos",
+  "homepage": "https://a0z0ra25.github.io/Carl_Jasper_Ramos",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "main -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
