@@ -4,6 +4,7 @@ import Hero from './heroContainer/hero';
 import Navbar from './navcontainer/navbar';
 import Projects from './projectContainer/projects';
 import About from './aboutContainer/about';
+import Skills from './skillContainer/skills';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitter, faFacebook, faPinterest, faGithub, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
@@ -23,15 +24,13 @@ function App() {
     <Router>
       <div className='container bg-background md:h-full xl:h-svh w-svw h-svh md:px-[60px] px-[10px] py-[20px] md:py-0'> 
         <Navbar onClickNav={handleClickSection} />
-        <Routes>
-          {/* Default route */}
-          <Route path="/home" element={<Hero />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        {showSection === "home" && <Hero />}
+        {showSection === "projects" && <Projects />}
+        {showSection === "about" && <About />}
+        {showSection === "skills" && <Skills />}
       </div>
     </Router>
   );
 }
 
-export default App;
+export default App; 

@@ -5,7 +5,7 @@ import { fadeIn } from "../variants";
 function About(){
 
     return(
-        <div className="border font-itim text-center md:overflow-visible overflow-scroll flex flex-col bg-background px-5 py-[31.5px] md:h-fit h-[530px] md:my-14 border-black ">
+        <div className="border font-itim text-center md:overflow-visible overflow-scroll flex flex-col bg-background px-5 py-[31.5px] md:h-[500px] h-[530px] md:my-14 border-black ">
             <motion.h1 className='mb-3 text-3xl font-bold'
                         variants={fadeIn('up', 0.2)}
                         initial='hidden'
