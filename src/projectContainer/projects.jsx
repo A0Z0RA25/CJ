@@ -60,7 +60,7 @@ function Projects(){
                  onClick={() => handleActiveProject(work.src, index)}>
                 <img className="md:h-[150px] w-full md:w-[250px] h-full mx-auto" key={index} src={work.src} alt="" />
                 <h1 className="hover:text-red-600 mt-2" key={index}>{work.title}</h1>
-                <motion.hr class="h-[2px] bg-black"
+                <motion.hr            
                            initial={{ width: '0%' }}
                            whileInView={{ width: '100%' }}
                            transition={{ duration: 0.8, ease: "easeInOut" }} />
